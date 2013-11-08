@@ -1,0 +1,16 @@
+{
+  "name": "bower",
+  "main": "index.js",
+  "version": "0.0.0",
+  "authors": [
+    "Your Name <your@email.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

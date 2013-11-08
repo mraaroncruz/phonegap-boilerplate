@@ -6,12 +6,17 @@ Efficient Phonegap development and build process
 
 - ruby
 - phonegap npm package
+- bower npm package [optional]
 
 ## Installation
 
 Install the phonegap executable via npm
 
     $ npm install -g phonegap
+
+or optionally install with [bower](http://bower.io/)
+
+    $ npm install -g phonegap bower
 
 Clone the repo
 
@@ -27,7 +32,7 @@ Install ruby dependencies
 
 ### As a standalone server
 
-Run livereload and catapult (for coffeescript/sass and file concatenation)
+Run [livereload](http://livereload.com/) and [catapult](https://github.com/maccman/catapult) (for coffeescript/sass and file concatenation)
 
     $ bundle exec foreman # Ctrl-C to stop foreman
 
@@ -49,6 +54,8 @@ now you can open `http://phonegap-boilerplate.dev/` in your browser
 - Sprockets - JavaScript and CSS packaging system
 - CoffeeScript
 - SASS/SCSS
+- bower
+- angular.js
 
 ## Using the Phonegap build tool (WIP)
 

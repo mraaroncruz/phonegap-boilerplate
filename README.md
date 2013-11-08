@@ -31,6 +31,8 @@ Run livereload and catapult (for coffeescript/sass and file concatenation)
 
     $ bundle exec foreman # Ctrl-C to stop foreman
 
+now you can open `http://localhost:3000` in your browser
+
 ### With Pow
 
 As an alternative you can run with pow
